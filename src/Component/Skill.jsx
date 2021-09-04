@@ -2,6 +2,8 @@ import React from 'react'
 import "./Skill.css"
 const Skill = () => {
     return (
+        <>
+        <h1 style={{textAlign:"center",margin:"20px"}}>My Skills</h1>
         <div className="container">
             <div className="front">
          <div className="skills section" id="skills">
@@ -9,7 +11,7 @@ const Skill = () => {
 
                 <div className="skills__container bd-grid">          
                     <div>
-                        <h2 className="skills__subtitle">Front-end</h2>
+                        {/* <h2 className="skills__subtitle">Front-end</h2> */}
                         <p className="skills__text"></p>
                         <div className="skills__data">
                             <div className="skills__names">
@@ -44,7 +46,7 @@ const Skill = () => {
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">65%</span>
+                                <span className="skills__percentage">80%</span>
                             </div>
                         </div>
                         <div className="skills__data">
@@ -56,7 +58,7 @@ const Skill = () => {
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div className="skills__data">
@@ -68,7 +70,7 @@ const Skill = () => {
                         
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">95%</span>
                             </div>
                         </div>
                     </div>
@@ -84,7 +86,7 @@ const Skill = () => {
 
                 <div className="skills__container bd-grid">          
                     <div>
-                        <h2 className="skills__subtitle">Back-end</h2>
+                        {/* <h2 className="skills__subtitle">Back-end</h2> */}
                         <p className="skills__text"></p>
                         <div className="skills__data">
                             <div className="skills__names">
@@ -95,7 +97,7 @@ const Skill = () => {
 
                             </div>
                             <div>
-                                <span className="skills__percentage">95%</span>
+                                <span className="skills__percentage">85%</span>
                             </div>
                         </div>
                         <div className="skills__data">
@@ -107,34 +109,35 @@ const Skill = () => {
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">80%</span>
                             </div>
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                               
-                                <span className="skills__name">JAVASCRIPT</span>
+                                 <img className="skills__icon"src="express.png" alt="" height="40px" />
+                                <span className="skills__name">EXPRESS</span>
                             </div>
                             <div className="skills__bar skills__js">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">65%</span>
+                                <span className="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxl-react skills__icon'></i>
-                                <span className="skills__name">REACT</span>
+                                {/* <i className='bx bxl-react skills__icon'></i> */}
+                                <img className="skills__icon"src="mongo.png" alt="" height="40px" />
+                                <span className="skills__name">MongoDB</span>
                             </div>
                             <div className="skills__bar skills__ux">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">85%</span>
+                                <span className="skills__percentage">80%</span>
                             </div>
                         </div>
-                        <div className="skills__data">
+                        {/* <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-redux skills__icon'></i>
                                 <span className="skills__name">REDUX</span>
@@ -145,16 +148,17 @@ const Skill = () => {
                             <div>
                                 <span className="skills__percentage">85%</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     
-                    <div>              
+                    {/* <div>              
                         <img src="assets/img/work3.jpg" alt="" className="skills__img"/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             </div>
         </div>
+        </>
     )
 }
 

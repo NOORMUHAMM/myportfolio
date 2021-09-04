@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
           <div className="navContainer">
               <div className="navLeft">
-                  <h1>NOOR</h1>
+                  <h1>NOOR MUHAMMED</h1>
               </div>
               <div className="navRight">
                   

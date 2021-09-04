@@ -12,9 +12,11 @@
 .left{
  margin-left: 10%;
 }
-.right{
+.right>img{
+  height: 700px;
 
 }
+
 .btn{
     position: relative;
     width: 200px;
@@ -57,4 +59,30 @@
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+.btn>a{
+  text-decoration: none;
+  color:#fff;
+}
+@media only screen and (max-width: 950px) and (min-width: 500px)  {
+.right>img{
+  height: 500px;
+}
+
+}
+@media only screen and (max-width: 800px) and (min-width: 500px)  {
+.right>img{
+width: 350px;
+
+}
+
+}
+@media only screen and (max-width: 700px) and (min-width: 500px)  {
+.container{
+    display: flex;
+    flex-direction:column;
+}
+.right>img{
+  height: 500px;
+}
 }

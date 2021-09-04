@@ -39,3 +39,27 @@
     color: blue;
     border-top: 1px solid blue;
 }
+
+@media only screen and (max-width: 850px) and (min-width: 500px)  {
+.navLeft{
+    margin-left: 10%;
+}
+.navLeft>h1{
+    margin-top: 10px;
+    font-size: large;
+}
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+.navLeft{
+    margin-left: 2%;
+}
+.navLeft>h1{
+    margin-top: 10px;
+    font-size: medium;
+}
+.navRight{
+    display: flex;
+    margin-right:5%;
+    
+}
+}

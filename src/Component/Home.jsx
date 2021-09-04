@@ -13,9 +13,11 @@ const Home = () => {
             <div className="left">
              <h1 className="home__title">Hi,<br/>I'am <span className="home__title-color">Noor Muhammed</span><br/> Full Stack Web Developer</h1>
              <button className="btn" onClick={contact}>Contact</button>
+                      <button className="btn"><a href="https://drive.google.com/file/d/1iYGEBpSOHXfaPrQD1JyikUvp5muJ4rQi/view?usp=sharing">Resume</a></button>
              </div>
              <div className="right">
-                <img src="https://cdn.dribbble.com/users/1025838/screenshots/6220885/devguy3.gif" alt=""></img>
+                {/* <img src="https://cdn.dribbble.com/users/1025838/screenshots/6220885/devguy3.gif" alt=""></img> */}
+                <img src="mupic.png"></img>
              </div>
               
         </div>
