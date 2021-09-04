@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navContainer{
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+   
+    z-index: var(--z-fixed);
+    background-color: white;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+.navRight{
+    display: flex;
+    margin-right: 10%;
+    
+}
+.Navlink{
+    text-decoration: none;
+    margin-left: 30px;
+   margin-top: 20px;
+}
+.navLeft{
+    margin-left: 10%;
+}
+.navLeft>h1{
+    margin-top: 10px;
+}
+.Navlink:active{
+    color: blue;
+}
+.Navlink:focus{
+    color: blue;
+    border-top: 1px solid blue;
+}
