@@ -17,7 +17,7 @@ const Home = () => {
              </div>
              <div className="right">
                 {/* <img src="https://cdn.dribbble.com/users/1025838/screenshots/6220885/devguy3.gif" alt=""></img> */}
-                <img src="mupic.png"></img>
+                <img src="my.jpg"></img>
              </div>
               
         </div>
