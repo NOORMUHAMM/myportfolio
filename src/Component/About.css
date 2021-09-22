@@ -228,3 +228,178 @@ text-align: center;
   border-radius: .5rem;
 }
   }
+  @media only screen and (max-width: 600px) and (min-width: 300px)  {
+.about__container{
+  row-gap: 2rem;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.about__img{
+text-align: center;
+width:100%;
+}
+.detail{
+  width: 100%;
+  text-align: center;
+}
+.about__img img{
+  width: 250px;
+  border-radius: .5rem;
+    text-align: center;
+}
+.home__social-icon{
+ text-align: center;
+}
+.home__social{  text-align: center;
+
+margin-left:30px;
+
+}
+
+
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+     width:94%;
+}
+.first{     position: relative;
+     width:93%;
+    height: 500px;
+    margin-left: 5px;
+    border-color: #db3939;
+    color: #fff;
+    box-shadow: 0 4px 7px 0 rgb(42 46 59 / 16%);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    white-space: nowrap;
+   
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px; 
+    
+}
+.first>div{
+    
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    
+    border-color: #db3939;
+    color: #fff;
+    box-shadow: 0 4px 7px 0 rgb(42 46 59 / 16%);
+    
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    white-space: nowrap;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+}
+.second{
+     position: relative;
+     width:93%;
+    height: 500px;
+    margin-left: 5px;
+    border-color: #db3939;
+    
+    box-shadow: 0 4px 7px 0 rgb(42 46 59 / 16%);
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+  
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    white-space: nowrap;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px; 
+}.second>form>input{
+    height:30px;
+    width:98%;
+     position: relative;
+    /* border-color: #db3939;
+    color: #fff; */
+    box-shadow: 0 4px 7px 0 rgb(42 46 59 / 16%);
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    /* text-align: center; */
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    white-space: nowrap;
+   margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px; 
+}
+
+.second>form>button{
+  position: relative;
+     width:98%;
+    background-color:blue;
+    border-color: #db3939;
+    color: #fff;
+    box-shadow: 0 4px 7px 0 rgb(42 46 59 / 16%);
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    white-space: nowrap;
+    border-radius: 40000px;
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 24px;
+ 
+}
+.second>form>label{color: black;}
+.first>div>a>img{
+    width: 150px;
+}
+  }
+
+  @media only screen and (max-width:1366px) and (min-width: 1024px)  {
+
+  .about__container{
+  row-gap: 2rem;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 20px;
+  
+}
+  }

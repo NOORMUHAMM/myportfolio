@@ -1,8 +1,19 @@
-
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 import { useHistory } from 'react-router-dom';
 
 const Contact = () => {
+   const popup = useRef(null)
+  const handle = () => {
+
+        if (popup.current.style.display === "none") {
+            popup.current.style.display = "block";
+
+
+
+        } else {
+            popup.current.style.display = "none";
+        }
+    }
   const history=useHistory()
   const [user,setUser]=useState({
     username:"",
@@ -44,7 +55,12 @@ const Contact = () => {
             <div><a href="https://github.com/NOORMUHAMM"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" /></a></div>
             <div><a href="https://www.linkedin.com/in/noor-muhammed-a96a10116/"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt="" /></a></div>
             <div><a href="https://twitter.com/noormuhammed143"><img src="	https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png" alt="" /></a></div>
-            <div><a href=""><img src="https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png" alt="" /></a></div>
+            <div onClick={handle}><a href=""><img src="https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png" alt="" /></a>
+      
+              <div className="nav" ref={popup} style={{ display: "none" ,border:"1px dolid green" }}>
+                 <p style={{color:"black",marginLeft:"-100px"}}>noormuhammed14@gmail.com</p>
+            </div>
+          </div>
           </div>
             <div className="second">
               <h1 style={{marginBottom:"30px"}}>Contact me</h1>
@@ -54,7 +70,7 @@ const Contact = () => {
                   <label >Enter Your Email</label><br />
                 <input type="text"  name="email" value={user.email} placholder="Email" onChange={postuserdata}/><br />
                   <label >Enter Your Message</label><br />
-                <input type="text"  name="message" value={user.message} placholder="Password" onChange={postuserdata}/><br />
+                <input type="text"  name="message" value={user.message}onChange={postuserdata}/><br />
                 <button type="submit" onClick={submit}>click</button>
             </form>
             </div>

@@ -33,7 +33,7 @@
   text-align: center;
 }
 .description>button{
-  width: 100px;
+  width: 120px;
   height: 30px;
 background-color: blue;
 color: #fff;
@@ -97,7 +97,7 @@ margin-top: 20px;
   cursor: pointer;
 }
   }
-  @media only screen and (max-width:600px) and (min-width:400px)  {
+  @media only screen and (max-width:600px) and (min-width:300px)  {
 
    .work{
     display: grid;
@@ -112,14 +112,27 @@ margin-top: 20px;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
-   width: 400px;
+   width:98%;
   height: 550;
   padding-bottom: 20px;
+  padding: 1%;
 }
 .work__img img{
   transition: 1s;
-  width: 400px;
+   width: 98%;
   height: 300px;
   cursor: pointer;
 }
   }
+
+  @media only screen and (max-width: 700px) and (min-width: 300px)  {
+.container{
+    display: flex;
+    flex-direction:column;
+       width: 100%;
+}
+.right>img{
+   width: 100%;
+}
+
+}
